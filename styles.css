@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url('background.jpg'); /* Replace 'background.jpg' with your background image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  color: white;
+}
+
+.poem {
+  background-color: rgba(0, 0, 0, 0.7); /* Black background with 70% opacity */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
